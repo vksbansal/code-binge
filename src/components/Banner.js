@@ -7,10 +7,14 @@ class Banner extends Component {
         this.state = {}
     }
     render() {
+        const { bottomText } = this.props;
+
         return <div id="banner">
             <div className="banner-container">
                 <div className="top"></div>
-                <div className="bottom"> </div>
+                <div className="bottom">
+                    {bottomText}
+                </div>
             </div>
         </div>
     }

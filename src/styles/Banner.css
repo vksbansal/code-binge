@@ -4,5 +4,31 @@
     left: 10%;
     right: 10%;
     position: absolute;
+}
+
+.banner-container {
+    position: relative;
     background: seagreen;
+    height: 100%;
+}
+
+.banner-container .top,
+.banner-container .bottom {
+    left: 0;
+    right: 0;
+}
+
+.banner-container .top {
+    top: 0;
+    background-color: white;
+    height: 80%;
+}
+
+.banner-container .bottom {
+    bottom: 0;
+    background-color: rgb(27, 5, 5);
+    height: 20%;
+    color: red;
+    text-align: center;
+    padding-top: 10px
 }
