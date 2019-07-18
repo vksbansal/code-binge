@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "943d82f8b5b295b661a5a56e68916ab2",
+    "revision": "21a841b11e7cd733367bd8665efc21b7",
     "url": "/code-binge/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code-binge/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "f0d5b6c0ce9fc0e203cd",
-    "url": "/code-binge/static/css/main.8c2c2d68.chunk.css"
+    "revision": "5b55899ae0c7922886db",
+    "url": "/code-binge/static/css/main.1c2f41f3.chunk.css"
   },
   {
     "revision": "204b43c088da42e984ef",
     "url": "/code-binge/static/js/2.35ce3aef.chunk.js"
   },
   {
-    "revision": "f0d5b6c0ce9fc0e203cd",
+    "revision": "5b55899ae0c7922886db",
     "url": "/code-binge/static/js/main.f1bcb4fc.chunk.js"
   },
   {
