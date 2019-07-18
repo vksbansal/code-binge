@@ -9,7 +9,7 @@ import { fetchIdeas } from './services/ideasApi';
 const targetDate = new Date('2019-07-24 23:59:59');
 const prefix = "Idea Box Closes In:"
 const FootlineText = 'Exciting Prizes to be won for the Most Popular Idea'
-const logoSrc = "/logo.jpg"
+const logoSrc = "./logo.jpg"
 const bannerBottomText = "SUBMIT YOUR IDEA BY 24TH JULY 2019"
 class App extends Component {
   constructor(props) {
