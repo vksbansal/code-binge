@@ -28,8 +28,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Logo url={logoSrc}></Logo>
-        <div id="top"></div>
+        {/*<Logo url={logoSrc}></Logo-->*/}
+        <div id="top">
+          <img src="logo.png"/>
+        </div>
         <div id="bottom"> </div>
         <Banner ideas={ideas} bottomText={bannerBottomText}></Banner>
         <Countdown targetDate={targetDate} prefix={prefix}></Countdown>

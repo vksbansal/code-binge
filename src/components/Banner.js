@@ -12,7 +12,7 @@ class Banner extends Component {
         return <div id="banner">
             <div className="banner-container">
                 <div className="top">
-                    {ideas.map(idea => {
+                    {/*ideas.map(idea => {
                         return <div>
                             <span className="span-text">{idea.creator}</span>
                             <br />
@@ -20,7 +20,7 @@ class Banner extends Component {
                             <br />
                             <span className="span-text">{idea.description}</span>
                         </div>
-                    })}
+                    })*/}
                 </div>
                 <div className="bottom">
                     {bottomText}
