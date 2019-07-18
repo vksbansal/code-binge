@@ -1,0 +1,82 @@
+[
+    {
+        "creator": "Hitesh Bhatia",
+        "title": "Get that Merch",
+        "description": "Often it happens, that we are watching a video and our favourite star dons a Shirt which looks super cool. But later on, when we try to look up that product online we end up spending good 10-15 minutes or more.\\n\\nWhat if we could just pause the video app and order the product just by a click of a button or the voice command (just by saying Get that Merch)."
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Songs and their versions",
+        "description": "A song may have many versions of it like remix, unplugged, live, etc. \\nWhat if there was a way to smartly identify these together?\\n\\nUse case: When a user plays a regular song, we can show other versions of this song that a user may be interested in."
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Video: OST & Background Music",
+        "description": "Many Movie/TV Show viewers are often interested in the songs (or background scores) played in the video. \\nI am sure a lot of us would have searched for the Game of Thrones songs or Friends Songs in season 4 or One Tree Hill Soundtrack (few of the top searched TV show music). \\n\\nWhat if we can create such a feature in Airtel TV app wherein we can suggest the songs that are being used in the video, which can then be interlinked to the music app where users can go an play these songs? \\n\\nI would love it as a user. I am sure a lot of us will. :)\\n\\nFuture add ons: Directly (one-click) create a playlist from Airtel TV that users can access in their Wynk account."
+    },
+    {
+        "creator": "Saurabh",
+        "title": "RJ [on] Wynk (Campus Radio)",
+        "description": "Use Case: As a user, I may want to play a RJ in my campus/friend circle. I can just keep playing songs in my player queue and this playback can be streamed by any other user with who I have shared a live stream URL. \\n\\nThe receiving user can listen to this as a live stream. \\n\\nToned down solution (for #codeBinge) - listeners queue keeps getting updated as per the change by RJ (can use the player queue used for Radio, where songs dont actually show up on the UI).\\n\\nFuture add-on: Live voice communication can be added (just like real RJ-ing)"
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Wynkzam - Shazam for Wynk",
+        "description": "Use Case - User records a song piece and Wynk identifies which song was this (the Shazam feature)\\n\\nNote for freshers - Theres the concept of fingerprinting which is already existing in Wynk. The same can be leveraged for this. \\n\\nP.S. - The feature will obviously be renamed if it goes live :D"
+    },
+    {
+        "creator": "Mrigank Gandhi",
+        "title": "Wynk Music on Android Auto",
+        "description": "Connected cars are the norm now and the number of active users will only grow in the coming months.\\n\\nWe have postponed developing for Android Auto for quite a long time. With Wynk on Android Auto, we would be directly available for atleast 100k power users who want to listen to music on the go. \\n\\nTeam members will also get the opportunity to test it out on an Android auto enabled car."
+    },
+    {
+        "creator": "Mrigank Gandhi",
+        "title": "Music Control through Shake Gesture",
+        "description": "Go to the next song by shaking your phone to the right, shake twice to pause/play the song. Build more smart gestures to control the playback like putting the phone face down to reduce the volume and spin the phone to shuffle the queue"
+    },
+    {
+        "creator": "Mrigank Gandhi",
+        "title": "Add FM Radio channels to Wynk",
+        "description": "Create a FM tuner service and add it to Wynk. \\nBecause why not?"
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Collaborative Playlists (Lets play together)",
+        "description": "Use Case: We need a playlist type where multiple users can work on collaboratively. \\n\\nFlow: The creator (owner) creates a playlists and shares it with his/her friends for collaboration (a different flow than a normal share). Users can accept the request and become part of the playlist. \\nThese users can do the following (in priority order): \\n1. Add Songs\\n2. Remove Songs\\n3. Reorder Songs\\n4. Change Playlist Image\\n\\nGood to have (for #codeBinge) - Any edit by a user  pushes an update notification to all users in collaboration\\n\\nNote - only owner can delete playlist and add new users for collaboration"
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Sync the Lyrics",
+        "description": "Use Case: We have got lakhs of static lyrics mapped to songs. We want to be able to sync these with the songs and play them alongside the song (just like subtitles). \\n\\nNeed an automated way to convert a static lyrics into a synched lyrics (lrc format)"
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Smart Memory Manager for Wynk",
+        "description": "Theres a problem today in the app that a user may keep downloading songs, but may never play a few (or may be many) of those. Such songs keep lying in the memory and eats up users device space. \\nWe should find a way where the app can itself (ofcourse, with users permission) keep deleting the songs that are irrelevant for the user. \\n\\nAlso, it should identify that the songs that could be downloaded, in order for a better user experience (e.g. songs that users listens to frequently can be automatically downloaded, so as to avoid possible network issues that a user may run into next time playback)."
+    },
+    {
+        "creator": "Raj",
+        "title": "World Radio",
+        "description": "Choose location, year, and genre, and ten songs of that era present themselves to you, maybe a even a trivia quiz, awarding winners with subscriptions, etc"
+    },
+    {
+        "creator": "Raj",
+        "title": "DJ Console",
+        "description": "A DJ console, where user drags and drops songs, mixes them, records them, shares them with friends, maybe even live stream them as concerts."
+    },
+    {
+        "creator": "Raj",
+        "title": "Karaoke Competition",
+        "description": "Users sing along their favorite raps, and compare their scores on how close they were to the actual lyrics/rhythm/beat"
+    },
+    {
+        "creator": "Hitesh Bhatia",
+        "title": "Regional Lyrics",
+        "description": "As of now lyrics for Hindi Songs are also on English language (hinglish). Why not have regional lyrics for Indian Sings, Hindi language lyrics for hindi Songs and Punjabi for Punjabi and so on."
+    },
+    {
+        "creator": "Saurabh",
+        "title": "Song Kya Hai? (Music Nerds are the best Nerds :D)",
+        "description": "Create a song guessing game where the app plays a clip of a song and multiple users who have joined that game try to guess the song. User guessing the song first (or first 2/3 or something like that) get points. \\n\\nTo keep relevant songs for the users, we can ask users to select songs language, decade or any other filters that are relevant. \\n\\nThe real challenge will be to identify a relevant part of the song which is neither a direct lyrics to suggest the song directly nor a part which has nothing (or may be just silence). \\n\\nAlso, user input option can be free text (which brings the challenge to map it to actual song) or an option based quiz which makes the game easier. Something to think upon.\\n\\nThis can also be clubbed with some sort of a trivia game that Raj has mentioned in another idea. \\n\\nA quiz for music nerds!\\n\\nAnother variant - Guess the singer from the voice. This can be even more interesting and here giving options wont really be a big problem. Challenge will be creating options which have similar kin of voices. This is where content experts help can be taken with some logic (if an automated way is timetaking)."
+    }
+]
