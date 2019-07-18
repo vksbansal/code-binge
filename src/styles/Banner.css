@@ -7,3 +7,18 @@
     background: #FFF;
     border-radius: 11px;
 }
+
+.bottom{
+    height: 10%;
+    background-color: black;
+    color: #DEAB4D;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-size: larger;
+}
+
+.top{
+    height: 90%;
+}
