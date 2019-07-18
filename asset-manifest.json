@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/code-binge/static/css/main.6db0ac9b.chunk.css",
-    "main.js": "/code-binge/static/js/main.655eaaa0.chunk.js",
-    "main.js.map": "/code-binge/static/js/main.655eaaa0.chunk.js.map",
+    "main.css": "/code-binge/static/css/main.a9492fa8.chunk.css",
+    "main.js": "/code-binge/static/js/main.d774946c.chunk.js",
+    "main.js.map": "/code-binge/static/js/main.d774946c.chunk.js.map",
     "runtime~main.js": "/code-binge/static/js/runtime~main.c6b1bd91.js",
     "runtime~main.js.map": "/code-binge/static/js/runtime~main.c6b1bd91.js.map",
     "static/js/2.ca771bea.chunk.js": "/code-binge/static/js/2.ca771bea.chunk.js",
     "static/js/2.ca771bea.chunk.js.map": "/code-binge/static/js/2.ca771bea.chunk.js.map",
     "index.html": "/code-binge/index.html",
-    "precache-manifest.395dca732a701e8e25d64f88898f0b57.js": "/code-binge/precache-manifest.395dca732a701e8e25d64f88898f0b57.js",
+    "precache-manifest.4522cbcec22feae81013605dcadd646b.js": "/code-binge/precache-manifest.4522cbcec22feae81013605dcadd646b.js",
     "service-worker.js": "/code-binge/service-worker.js",
-    "static/css/main.6db0ac9b.chunk.css.map": "/code-binge/static/css/main.6db0ac9b.chunk.css.map"
+    "static/css/main.a9492fa8.chunk.css.map": "/code-binge/static/css/main.a9492fa8.chunk.css.map"
   }
 }
