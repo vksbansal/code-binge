@@ -7,7 +7,7 @@ import { fetchIdeas } from './services/ideasApi';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const targetDate = new Date('2019-07-24 23:59:59');
-const prefix = "Idea Box Closes In:"
+const prefix = "Time to Launch:"
 const FootlineText = 'Exciting Prizes to be won for the Most Popular Idea'
 const bannerBottomText = "SUBMIT YOUR IDEA BY 24TH JULY 2019"
 class App extends Component {
