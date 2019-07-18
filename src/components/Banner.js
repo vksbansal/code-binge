@@ -7,11 +7,21 @@ class Banner extends Component {
         this.state = {}
     }
     render() {
-        const { bottomText } = this.props;
+        const { bottomText, ideas } = this.props;
 
         return <div id="banner">
             <div className="banner-container">
-                <div className="top"></div>
+                <div className="top">
+                    {ideas.map(idea => {
+                        return <div>
+                            <span className="span-text">{idea.creator}</span>
+                            <br />
+                            <span className="span-text">{idea.title}</span>
+                            <br />
+                            <span className="span-text">{idea.description}</span>
+                        </div>
+                    })}
+                </div>
                 <div className="bottom">
                     {bottomText}
                 </div>
