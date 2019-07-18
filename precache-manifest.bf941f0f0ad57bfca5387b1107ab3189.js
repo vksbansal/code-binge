@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8ff95ac06e0e2114bbfdbe6dd4f4456",
+    "revision": "66f430b73724b22e04945063eb08f867",
     "url": "/code-binge/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code-binge/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "a404cc2290aeb4dccbf5",
+    "revision": "68d4db07cdaa89a13eeb",
     "url": "/code-binge/static/css/main.099ebeb3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code-binge/static/js/2.35ce3aef.chunk.js"
   },
   {
-    "revision": "a404cc2290aeb4dccbf5",
-    "url": "/code-binge/static/js/main.f1bcb4fc.chunk.js"
+    "revision": "68d4db07cdaa89a13eeb",
+    "url": "/code-binge/static/js/main.c828ee0a.chunk.js"
   },
   {
     "revision": "231db94be5fef140f6e1",
