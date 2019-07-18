@@ -1,0 +1,16 @@
+{
+    "ideas": [
+        {
+            "id": 1,
+            "author": "vikas bansal",
+            "title": "chat bot",
+            "desc": "you can pay your bills, recharge your mobile from here"
+        },
+        {
+            "id": 2,
+            "author": "shubhank shrivastav",
+            "title": "News 100",
+            "desc": "stay up to the date in brief, never miss a headline"
+        }
+    ]
+}
