@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Banner.css'
+import Carousel from 'react-bootstrap/Carousel';
 
 class Banner extends Component {
     constructor(props) {
@@ -11,18 +12,20 @@ class Banner extends Component {
 
         return <div id="banner">
             <div className="top">
-                {/*ideas.map(idea => {
-                    return <div>
-                        <span className="span-text">{idea.creator}</span>
-                        <br />
-                        <span className="span-text">{idea.title}</span>
-                        <br />
-                        <span className="span-text">{idea.description}</span>
-                    </div>
-                })*/}
+                <Carousel controls={false} indicators={false} pauseOnHover={true} slide={true} interval={20000}>
+                    {
+                        ideas.map((idea,i) => {
+                            return <Carousel.Item key={i}>
+                                <div className="title">{idea.title}</div>
+                                <div className="desc">{idea.description.replace('\n', '')}</div>
+                                <div className="creator">{idea.creator}</div>
+                            </Carousel.Item>
+                        })
+                    }
+                </Carousel>
             </div>
             <div className="bottom">
-                {bottomText}
+                <div>{bottomText}</div>
             </div>
         </div>
     }

@@ -26,7 +26,7 @@ class Countdown extends Component {
         //Otherwise
         duration = moment.duration(duration.asSeconds() - 1, 'seconds');
 
-        const timeToDisplay = prefix + " " + (duration.days() + 'd:' + duration.hours() + 'h:' + duration.minutes() + 'm:' + duration.seconds() + 's');
+        const timeToDisplay = (duration.days() + ' Days, ' + duration.hours() + ' Hours, ' + duration.minutes() + ' Min, ' + duration.seconds() + ' Sec');
 
         this.setState({
             timeToDisplay
@@ -41,9 +41,12 @@ class Countdown extends Component {
     render() {
         const { timeToDisplay } = this.state;
 
-        return <div>
-            <h3>{timeToDisplay}</h3>
-        </div>
+        return (
+            <div className="countdown">
+                <div>{this.props.prefix}</div>
+                <div>{this.state.timeToDisplay}</div>
+            </div>
+        )
     }
 }
 

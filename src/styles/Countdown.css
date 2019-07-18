@@ -1,6 +1,9 @@
-h3 {
+.countdown {
     color: white;
-    top: 10px;
-    right: 20px;
+    right: 10%;
+    top: 22.5%;
+    line-height: 1.5em;
     position: absolute;
+    font-size: larger;
+    font-family: sans-serif;
 }

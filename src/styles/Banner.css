@@ -14,11 +14,39 @@
     color: #DEAB4D;
     text-transform: uppercase;
     font-family: sans-serif;
-    text-align: center;
     border-radius: 0 0 10px 10px;
     font-size: larger;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .top{
     height: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.top .carousel-item{
+    padding: 4%;
+}
+
+.top .title{
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.top .desc{
+    margin-bottom: 5%;
+    font-size: large;
+    text-align: justify;
+}
+
+.top .creator{
+    font-family: cursive;
+    font-size: large;
 }
