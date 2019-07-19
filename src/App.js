@@ -7,7 +7,7 @@ import { fetchIdeas } from './services/ideasApi';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import moment from 'moment'
 
-const targetDate = moment("2019-07-24 23:59:59", "YYYY-MM-DD hh:mm:ss").toDate()
+const targetDate = moment("2019-07-26 10:59:59", "YYYY-MM-DD hh:mm:ss").toDate()
 const prefix = "Time to Launch:"
 const FootlineText = 'Exciting Prizes to be won for the Most Popular Idea'
 const bannerBottomText = "SUBMIT YOUR IDEA BY 24TH JULY 2019"
