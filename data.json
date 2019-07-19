@@ -5,6 +5,11 @@
         "description": "Often it happens, that we are watching a video and our favourite star dons a Shirt which looks super cool. But later on, when we try to look up that product online we end up spending good 10-15 minutes or more.\\n\\nWhat if we could just pause the video app and order the product just by a click of a button or the voice command (just by saying Get that Merch)."
     },
     {
+        "creator": "Vikas Bansal",
+        "title": "Music assistant",
+        "description": "It is often I need to use google to play some music, what if we give our own wynk music assistant to user where a user and ask to play or add a song in the queue, going further what if we can just ask it to play romantic song or a romantic playlist"
+    },
+    {
         "creator": "Saurabh",
         "title": "Songs and their versions",
         "description": "A song may have many versions of it like remix, unplugged, live, etc. \\nWhat if there was a way to smartly identify these together?\\n\\nUse case: When a user plays a regular song, we can show other versions of this song that a user may be interested in."
