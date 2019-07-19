@@ -18,7 +18,12 @@ class App extends Component {
 
   componentDidMount() {
     fetchIdeas().then(({ data: ideas }) => {
-      this.setState({ ideas })
+      let allIdeas = ideas.map(idea => {
+        let description = idea.description.replace(/\\n/g, "");
+        idea.description = description;
+        return idea;
+      })
+      this.setState({ ideas: allIdeas })
     })
   }
 
