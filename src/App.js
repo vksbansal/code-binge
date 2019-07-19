@@ -5,8 +5,9 @@ import Countdown from './components/Countdown';
 import Footline from './components/Footline';
 import { fetchIdeas } from './services/ideasApi';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import moment from 'moment'
 
-const targetDate = new Date('2019-07-24 23:59:59');
+const targetDate = moment("2019-07-24 23:59:59", "YYYY-MM-DD hh:mm:ss").toDate()
 const prefix = "Time to Launch:"
 const FootlineText = 'Exciting Prizes to be won for the Most Popular Idea'
 const bannerBottomText = "SUBMIT YOUR IDEA BY 24TH JULY 2019"
@@ -33,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <div id="top">
-          <img src="logo.png"/>
+          <img src="logo.png" />
           <Countdown targetDate={targetDate} prefix={prefix}></Countdown>
         </div>
         <div id="bottom"> </div>
