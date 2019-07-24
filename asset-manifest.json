@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/code-binge/static/css/main.099ebeb3.chunk.css",
-    "main.js": "/code-binge/static/js/main.51fc40cb.chunk.js",
-    "main.js.map": "/code-binge/static/js/main.51fc40cb.chunk.js.map",
+    "main.js": "/code-binge/static/js/main.51d5e077.chunk.js",
+    "main.js.map": "/code-binge/static/js/main.51d5e077.chunk.js.map",
     "runtime~main.js": "/code-binge/static/js/runtime~main.c6b1bd91.js",
     "runtime~main.js.map": "/code-binge/static/js/runtime~main.c6b1bd91.js.map",
     "static/css/2.266e55a5.chunk.css": "/code-binge/static/css/2.266e55a5.chunk.css",
     "static/js/2.fc5556d6.chunk.js": "/code-binge/static/js/2.fc5556d6.chunk.js",
     "static/js/2.fc5556d6.chunk.js.map": "/code-binge/static/js/2.fc5556d6.chunk.js.map",
     "index.html": "/code-binge/index.html",
-    "precache-manifest.8aca4f19f6047b785ead77a54f7609d0.js": "/code-binge/precache-manifest.8aca4f19f6047b785ead77a54f7609d0.js",
+    "precache-manifest.518bfff57ff54e102ca04b60ebaa4f29.js": "/code-binge/precache-manifest.518bfff57ff54e102ca04b60ebaa4f29.js",
     "service-worker.js": "/code-binge/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/code-binge/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.099ebeb3.chunk.css.map": "/code-binge/static/css/main.099ebeb3.chunk.css.map"
